@@ -3,29 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0690F9A3249B4A0D00BDB4BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0690F9A2249B4A0D00BDB4BA /* LoginViewController.swift */; };
+		0690F9A5249B4A8F00BDB4BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0690F9A4249B4A8F00BDB4BA /* HomeViewController.swift */; };
 		06FFF15A24927C4600071F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF15924927C4600071F03 /* AppDelegate.swift */; };
 		06FFF15C24927C4600071F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF15B24927C4600071F03 /* SceneDelegate.swift */; };
-		06FFF15E24927C4600071F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF15D24927C4600071F03 /* ViewController.swift */; };
 		06FFF16124927C4600071F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FFF15F24927C4600071F03 /* Main.storyboard */; };
 		06FFF16424927C4600071F03 /* AffirmationsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06FFF16224927C4600071F03 /* AffirmationsApp.xcdatamodeld */; };
 		06FFF16624927C4800071F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FFF16524927C4800071F03 /* Assets.xcassets */; };
 		06FFF16924927C4800071F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FFF16724927C4800071F03 /* LaunchScreen.storyboard */; };
+		F455224862F924E1CBB89303 /* Pods_AffirmationsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184258247B50E5AF4BDC418F /* Pods_AffirmationsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0690F9A2249B4A0D00BDB4BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0690F9A4249B4A8F00BDB4BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		06FFF15624927C4600071F03 /* AffirmationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffirmationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FFF15924927C4600071F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06FFF15B24927C4600071F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06FFF15D24927C4600071F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06FFF16024927C4600071F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FFF16324927C4600071F03 /* AffirmationsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AffirmationsApp.xcdatamodel; sourceTree = "<group>"; };
 		06FFF16524927C4800071F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FFF16824927C4800071F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FFF16A24927C4800071F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184258247B50E5AF4BDC418F /* Pods_AffirmationsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AffirmationsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FA3C0970AECEFD6EE9F19D /* Pods-AffirmationsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmationsApp.release.xcconfig"; path = "Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp.release.xcconfig"; sourceTree = "<group>"; };
+		A53B3EC4A022C26414F0D0A8 /* Pods-AffirmationsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmationsApp.debug.xcconfig"; path = "Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455224862F924E1CBB89303 /* Pods_AffirmationsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0690F99F249B49A200BDB4BA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				06FFF15924927C4600071F03 /* AppDelegate.swift */,
+				06FFF15B24927C4600071F03 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0690F9A0249B49B900BDB4BA /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		0690F9A1249B49C200BDB4BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0690F9A2249B4A0D00BDB4BA /* LoginViewController.swift */,
+				0690F9A4249B4A8F00BDB4BA /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		06FFF14D24927C4500071F03 = {
 			isa = PBXGroup;
 			children = (
 				06FFF15824927C4600071F03 /* AffirmationsApp */,
 				06FFF15724927C4600071F03 /* Products */,
+				AD58E5EB6449CCB3CE17937D /* Pods */,
+				92735E57F431098510488C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +92,10 @@
 		06FFF15824927C4600071F03 /* AffirmationsApp */ = {
 			isa = PBXGroup;
 			children = (
-				06FFF15924927C4600071F03 /* AppDelegate.swift */,
-				06FFF15B24927C4600071F03 /* SceneDelegate.swift */,
-				06FFF15D24927C4600071F03 /* ViewController.swift */,
+				0690F99F249B49A200BDB4BA /* AppDelegate */,
+				06FFF17024927C5F00071F03 /* Model */,
+				0690F9A0249B49B900BDB4BA /* VIews */,
+				0690F9A1249B49C200BDB4BA /* Controllers */,
 				06FFF15F24927C4600071F03 /* Main.storyboard */,
 				06FFF16524927C4800071F03 /* Assets.xcassets */,
 				06FFF16724927C4800071F03 /* LaunchScreen.storyboard */,
@@ -70,6 +105,30 @@
 			path = AffirmationsApp;
 			sourceTree = "<group>";
 		};
+		06FFF17024927C5F00071F03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92735E57F431098510488C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184258247B50E5AF4BDC418F /* Pods_AffirmationsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD58E5EB6449CCB3CE17937D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A53B3EC4A022C26414F0D0A8 /* Pods-AffirmationsApp.debug.xcconfig */,
+				77FA3C0970AECEFD6EE9F19D /* Pods-AffirmationsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06FFF16D24927C4800071F03 /* Build configuration list for PBXNativeTarget "AffirmationsApp" */;
 			buildPhases = (
+				6E0B36AFA1638F7A6672724D /* [CP] Check Pods Manifest.lock */,
 				06FFF15224927C4500071F03 /* Sources */,
 				06FFF15324927C4500071F03 /* Frameworks */,
 				06FFF15424927C4500071F03 /* Resources */,
+				ED1721D466A2B604B3436A60 /* [CP] Embed Pods Frameworks */,
+				39A6C400ED539EBEDB985C00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +198,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39A6C400ED539EBEDB985C00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E0B36AFA1638F7A6672724D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AffirmationsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1721D466A2B604B3436A60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AffirmationsApp/Pods-AffirmationsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06FFF15224927C4500071F03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0690F9A5249B4A8F00BDB4BA /* HomeViewController.swift in Sources */,
 				06FFF16424927C4600071F03 /* AffirmationsApp.xcdatamodeld in Sources */,
-				06FFF15E24927C4600071F03 /* ViewController.swift in Sources */,
 				06FFF15A24927C4600071F03 /* AppDelegate.swift in Sources */,
+				0690F9A3249B4A0D00BDB4BA /* LoginViewController.swift in Sources */,
 				06FFF15C24927C4600071F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +408,7 @@
 		};
 		06FFF16E24927C4800071F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53B3EC4A022C26414F0D0A8 /* Pods-AffirmationsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +427,7 @@
 		};
 		06FFF16F24927C4800071F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FA3C0970AECEFD6EE9F19D /* Pods-AffirmationsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
